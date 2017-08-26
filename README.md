@@ -1,5 +1,5 @@
 # ts-jest-es2017-debugger-repro
-Repro repo for debugger issue with TS target es2017 and ts-jest@20.0.x
+Repro repo for [debugger issue](https://github.com/kulshekhar/ts-jest/issues/299) with TS compilerOptions.target "es2017" and ts-jest@20.0.x
 
 Steps to reproduce:
 * `yarn` or `npm install` to install dependencies
