@@ -8,3 +8,8 @@ Steps to reproduce:
 * Notice that the build task runs and debugger stops one line after **debugger;** statement as shown in the screen recording below
 
   ![Screen recording](./screenRecording.gif)
+  
+Tested with:
+* VSCode Version 1.15.1
+* Node v8.4.0
+* vscode-jest 2.3.0
