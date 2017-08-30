@@ -7,7 +7,13 @@
     "build": "tsc -p ./tsconfig.json",
     "test": "npm run build && jest"
   },
-  "keywords": ["Jest", "TypeScript", "es2017", "ts-jest", "debugger"],
+  "keywords": [
+    "Jest",
+    "TypeScript",
+    "es2017",
+    "ts-jest",
+    "debugger"
+  ],
   "jest": {
     "collectCoverage": true,
     "globals": {
@@ -19,7 +25,11 @@
       ".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
     },
     "testRegex": "(/__tests__/.*|\\.(test|spec))\\.ts$",
-    "moduleFileExtensions": ["ts", "tsx", "js"],
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ],
     "mapCoverage": true
   },
   "author": "Trivikram Kamat",
@@ -27,7 +37,7 @@
   "devDependencies": {
     "@types/jest": "^20.0.7",
     "jest": "^20.0.4",
-    "ts-jest": "^20.0.10",
+    "ts-jest": "^20.0.13",
     "typescript": "^2.4.2"
   }
 }
